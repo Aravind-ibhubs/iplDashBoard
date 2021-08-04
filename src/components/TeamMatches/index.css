@@ -1,0 +1,33 @@
+/* Write your CSS here */
+.team-details-app {
+  background-image: linear-gradient(to bottom, #a4261d, #5755a7);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.team-details-card {
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+}
+.banner {
+  height: 25vh;
+  width: 88vw;
+}
+.team-details-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.top-heading {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  align-self: flex-start;
+}

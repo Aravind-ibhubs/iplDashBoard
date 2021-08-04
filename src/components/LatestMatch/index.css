@@ -1,0 +1,64 @@
+/* Write your CSS here */
+.latest-match-card {
+  background-color: #1e293b;
+  border-radius: 15px;
+  width: 85vw;
+}
+.text-white {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+}
+@media (min-width: 576px) {
+  .horizontal-line {
+    display: block;
+  }
+  .logo-image {
+    height: 50px;
+    width: 50px;
+  }
+  .image-details-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 80vw;
+  }
+  .text-card {
+    height: 200px;
+    flex-grow: 1;
+    margin-left: 20px;
+  }
+  .last-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 15px;
+  }
+}
+@media (min-width: 768px) {
+  .latest-match-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 50vh;
+  }
+  .horizontal-line {
+    display: none;
+  }
+  .logo-image {
+    height: 120px;
+    width: 100px;
+  }
+  .text-white {
+    font-size: 15px;
+  }
+  .last-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 35vh;
+  }
+}

@@ -1,0 +1,45 @@
+/* Write your CSS here */
+.sucess-card {
+  color: #18ed66;
+  font-family: 'Bree Serif';
+}
+.loss-card {
+  color: #e31a1a;
+  font-family: 'Bree Serif';
+}
+.match-card {
+  background-color: #1e293b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 20px;
+}
+.match-image {
+  height: 60px;
+  width: 60px;
+}
+.match-heading {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 20px;
+}
+.match-result {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 20px;
+}
+@media (min-width: 576px) {
+  .match-card {
+    height: 40vh;
+    width: 40vw;
+  }
+}
+@media (min-width: 768px) {
+  .match-card {
+    height: 45px;
+    width: 30vw;
+  }
+}
